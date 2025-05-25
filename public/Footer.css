@@ -1,0 +1,17 @@
+:root {
+  --nav-bar-height: 70px;
+  --scroll-behavior: smooth;
+}
+
+footer {
+  display: flex;
+  position: fixed; /* remove */
+  top: var(--nav-bar-height); /* remove */
+  right: 0;
+  left: 0;
+  background-color: #0f172a;
+  color: #94a3b8;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
