@@ -5,8 +5,6 @@
 
 footer {
   display: flex;
-  position: fixed; /* remove */
-  top: var(--nav-bar-height); /* remove */
   right: 0;
   left: 0;
   background-color: #0f172a;
