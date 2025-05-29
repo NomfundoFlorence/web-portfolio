@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
+import About from './components/About'
 import './App.css'
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <About />
+      
       <Footer />
     </>
   )
