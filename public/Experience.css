@@ -19,9 +19,13 @@
 
 .experience-card {
   background-color: #fff;
-  margin: 0 1.8rem 1.8rem;
+  margin: 1rem;
   padding: 1.5rem;
   border-radius: 10px;
+}
+
+.experience-card:last-child {
+  margin-bottom: 5rem;
 }
 
 .company-logo {
@@ -43,6 +47,10 @@
   background-color: #f0f7ff;
   padding: .4rem .5rem;
   border-radius: 100px;
+}
+
+.experience-card .job-description {
+  color: #334155 ;
 }
 
 .technologies {

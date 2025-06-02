@@ -1,12 +1,6 @@
 import "/public/Experience.css";
 import umuzi from '../assets/umuzi.png'
 
-// import exp from '../assets/experience.json'
-
-// const experienceData = JSON.parse(exp)
-// console.log(experienceData);
-
-
 export default function Experience() {
   return (
     <section className="experience-section">
@@ -15,6 +9,7 @@ export default function Experience() {
         <div className="company-logo">
           <img src={umuzi} alt="Umuzi logo" />
         </div>
+        {/* div for job-position & dates */}
         <h3 className="job-position">Web Dev Recruit</h3>
         <p className="dates">Apr 2024 - Mar 2025</p>
         <h3 className="company-name">Umuzi</h3>

@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
 import Experience from './components/Experience'
+import Education from './components/Education'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <About />
       <Experience />
+      <Education />
       
       <Footer />
     </>
