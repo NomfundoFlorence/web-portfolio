@@ -1,6 +1,12 @@
 import "/public/Experience.css";
 import umuzi from '../assets/umuzi.png'
 
+// import exp from '../assets/experience.json'
+
+// const experienceData = JSON.parse(exp)
+// console.log(experienceData);
+
+
 export default function Experience() {
   return (
     <section className="experience-section">

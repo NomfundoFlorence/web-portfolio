@@ -39,6 +39,12 @@
   height: 70%;
 }
 
+.experience-card .dates {
+  background-color: #f0f7ff;
+  padding: .4rem .5rem;
+  border-radius: 100px;
+}
+
 .technologies {
   display: flex;
   flex-wrap: wrap;
