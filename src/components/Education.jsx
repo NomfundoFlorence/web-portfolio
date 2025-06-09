@@ -26,7 +26,7 @@ export default function Education() {
           </div>
           <h3 className="school-title">National Senior Certificate</h3>
           <h3 className="school-name">Nigel High School</h3>
-          <p className="dates">2016 - 2024</p>
+          <p className="dates">2016 - 2020</p>
           <p className="school-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
             dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed
