@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import About from './components/About'
 import Experience from './components/Experience'
 import Education from './components/Education'
+import Projects from './components/Projects'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Experience />
       <Education />
+      <Projects />
       
       <Footer />
     </>
