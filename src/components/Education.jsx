@@ -4,7 +4,7 @@ import nhs from "../assets/nigel_high.jpg";
 
 export default function Education() {
   return (
-    <section className="education-section">
+    <section className="education-section" id="education">
       <h1>Education</h1>
       <div className="education-content">
         <div className="education-card">

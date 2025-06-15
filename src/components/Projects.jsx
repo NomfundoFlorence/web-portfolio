@@ -40,7 +40,7 @@ export default function Projects() {
   });
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects">
       <h1>Projects</h1>
       <div className="projects-content">{projects}</div>
     </section>
