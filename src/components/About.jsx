@@ -26,13 +26,13 @@ export default function About() {
       <div className="about-content">
         <div className="about-image-container">
           <img
-            src="/src/assets/image05.jpg"
+            src="/src/assets/image-73.jpg"
             alt="A picture of Nomfundo smiling"
           />
         </div>
         <div className="about-text-skills-container">
           <p>
-            I'm a BSc in IT graduate and junior web developer with a passion for
+            I'm a BSc in IT graduate and an Umuzi alumni with a passion for
             turning ideas into code. My background includes experience in
             multiple programming languages, with a primary focus on the core web
             development technologies. I'm eager to contribute to innovative
