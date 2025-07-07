@@ -1,4 +1,5 @@
 import "/public/About.css";
+import aboutImage from "/src/assets/image-73.jpg";
 
 export default function About() {
   const skillsArr = [
@@ -26,7 +27,7 @@ export default function About() {
       <div className="about-content">
         <div className="about-image-container">
           <img
-            src="/src/assets/image-73.jpg"
+            src={aboutImage}
             alt="A picture of Nomfundo smiling"
           />
         </div>
