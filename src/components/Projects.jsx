@@ -6,7 +6,7 @@ export default function Projects() {
     return (
       <div className="project-card" key={index}>
         <img
-          src={project.image}
+          src={`/images/${project.image}`}
           alt="memory game load screen"
           className="memory-game-image"
         />

@@ -1,6 +1,6 @@
 [
   {
-    "image": "/public/images/memory_game.png",
+    "image": "memory_game.png",
     "title": "Memory game",
     "description": "A simple memory game where players match pairs of randomized cards and every move counts.",
     "technologies": ["Javascript", "HTML", "CSS"],
