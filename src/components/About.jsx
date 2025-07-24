@@ -1,5 +1,5 @@
 import "/public/About.css";
-import aboutImage from "../assets/image73.jpg";
+import aboutImage from "../../public/images/image73.jpg";
 
 export default function About() {
   const skillsArr = [
@@ -26,10 +26,7 @@ export default function About() {
       <h1>About Me</h1>
       <div className="about-content">
         <div className="about-image-container">
-          <img
-            src={aboutImage}
-            alt="A picture of Nomfundo smiling"
-          />
+          <img src={aboutImage} alt="A picture of Nomfundo smiling" />
         </div>
         <div className="about-text-skills-container">
           <p>
@@ -42,9 +39,7 @@ export default function About() {
           </p>
           <div className="skills-container">
             <h3>skills</h3>
-          <div className="skills">
-            {skills}
-          </div>
+            <div className="skills">{skills}</div>
           </div>
         </div>
       </div>

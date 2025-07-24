@@ -1,5 +1,5 @@
 import "/public/HeroSection.css";
-import image from "../assets/image05.jpg";
+import image from "/public/images/image05.jpg";
 
 export default function HeroSection() {
   return (
