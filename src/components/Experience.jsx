@@ -1,30 +1,32 @@
 import "/public/Experience.css";
-import umuzi from '../assets/umuzi.png'
+import experience from "../assets/experience.json";
+// import umuzi from "../assets/umuzi.png";
 
 export default function Experience() {
-  return (
-    <section className="experience-section">
-      <h1>Experience</h1>
-      <div className="experience-card">
+  const experiences = experience.map((xp, index) => {
+    return (
+      <div key={index} className="experience-card">
         <div className="company-logo">
-          <img src={umuzi} alt="Umuzi logo" />
+          <img src={xp.companyLogo} alt="Umuzi logo" />
         </div>
         {/* div for job-position & dates */}
-        <h3 className="job-position">Web Dev Recruit</h3>
-        <p className="dates">Apr 2024 - Mar 2025</p>
-        <h3 className="company-name">Umuzi</h3>
-        <p className="job-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui
-          mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor
-          neque eu tellus rhoncus ut eleifend nibh porttitor.
-        </p>
+        <h3 className="job-position">{xp.jobPosition}</h3>
+        <p className="dates">{xp.dates}</p>
+        <h3 className="company-name">{xp.companyName}</h3>
+        <p className="job-description">{xp.jobDescription}</p>
         <p className="technologies">
-          <span className="technology">skill</span>
-          <span className="technology">tool</span>
-          <span className="technology">tech</span>
-          <span className="technology">method</span>
+          {xp.skillsTools.map((skill, index) => {
+            return <span key={index} className="technology">{skill}</span>;
+          })}
         </p>
       </div>
-    </section>
+    );
+  });
+
+  return (
+    <>
+      <h1>Experience</h1>
+      <section className="experience-section">{experiences}</section>
+    </>
   );
 }

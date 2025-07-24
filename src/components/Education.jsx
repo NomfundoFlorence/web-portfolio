@@ -1,6 +1,6 @@
 import "/public/Education.css";
-import nwu from "../assets/nwu.png";
-import nhs from "../assets/nigel_high.jpg";
+import nwu from "/public/images/nwu.png";
+import nhs from "/public/images/nigel_high.jpg";
 
 export default function Education() {
   return (
