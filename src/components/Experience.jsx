@@ -7,7 +7,10 @@ export default function Experience() {
     return (
       <div key={index} className="experience-card">
         <div className="company-logo">
-          <img src={xp.companyLogo} alt="Umuzi logo" />
+          <img
+            src={`/images/${xp.companyLogo}`}
+            alt={`${xp.companyLogo} logo`}
+          />
         </div>
         {/* div for job-position & dates */}
         <h3 className="job-position">{xp.jobPosition}</h3>
@@ -16,7 +19,11 @@ export default function Experience() {
         <p className="job-description">{xp.jobDescription}</p>
         <p className="technologies">
           {xp.skillsTools.map((skill, index) => {
-            return <span key={index} className="technology">{skill}</span>;
+            return (
+              <span key={index} className="technology">
+                {skill}
+              </span>
+            );
           })}
         </p>
       </div>
