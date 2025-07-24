@@ -1,5 +1,5 @@
 import "/public/About.css";
-import aboutImage from "../../public/images/image73.jpg";
+import aboutImage from "/images/image73.jpg";
 
 export default function About() {
   const skillsArr = [

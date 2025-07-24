@@ -1,6 +1,5 @@
 import "/public/Experience.css";
 import experience from "../assets/experience.json";
-// import umuzi from "../assets/umuzi.png";
 
 export default function Experience() {
   const experiences = experience.map((xp, index) => {
@@ -32,8 +31,10 @@ export default function Experience() {
 
   return (
     <>
-      <h1>Experience</h1>
-      <section className="experience-section">{experiences}</section>
+      <section className="experience-section">
+        <h1>Experience</h1>
+        {experiences}
+      </section>
     </>
   );
 }
