@@ -53,16 +53,16 @@ export default function Header() {
       <nav className="nav-bar-mobile">
         <ul>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={toggleBarVisibility}>About</a>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <a href="#education" onClick={toggleBarVisibility}>Education</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={toggleBarVisibility}>Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={toggleBarVisibility}>Contact</a>
           </li>
         </ul>
       </nav>
