@@ -1,0 +1,10 @@
+[
+  {
+    "image": "memory_game.png",
+    "title": "Memory game",
+    "description": "A simple memory game where players match pairs of randomized cards and every move counts.",
+    "technologies": ["Javascript", "HTML", "CSS"],
+    "githubLink": "https://github.com/NomfundoFlorence/Memory-Game",
+    "liveLink": "https://memory-game-73.netlify.app/"
+  }
+]
