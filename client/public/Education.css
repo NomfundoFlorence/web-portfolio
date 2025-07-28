@@ -1,0 +1,73 @@
+:root {
+  --section-color: #074b85;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-section h1 {
+  margin: 3rem;
+  color: var(--section-color);
+  font-size: 2rem;
+}
+
+.education-card {
+  background-color: #fff;
+  border-top: 1rem solid #0270c3;
+  margin: 0 1.8rem 1.8rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.school-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0eefe;
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.school-logo img {
+  width: 70%;
+  height: 70%;
+  border-radius: 100%;
+}
+
+.education-card .school-title {
+  color: var(--section-color);
+}
+
+.education-card .school-name {
+  color: #0270c3;
+  font-weight: lighter;
+}
+
+.education-card .dates {
+  color: #64748b;
+}
+
+.education-card .school-description {
+  color: #334155;
+}
+
+@media (min-width: 600px) {
+  .education-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .education-card {
+    margin-right: 0;
+    margin-left: 0;
+    flex: 0 0 calc(33.33% - 1rem);
+    box-sizing: border-box;
+  }
+}
