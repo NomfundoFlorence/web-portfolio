@@ -1,6 +1,7 @@
 const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
+const { LOGIN, createTransporter } = require("./config");
 
 const app = express();
 
@@ -8,13 +9,25 @@ app.use(cors());
 const upload = multer();
 
 app.post("/contact", upload.none(), (req, res) => {
-  // console.log("data received");
-  console.log("before");
-  
   console.log(req.body);
-  console.log("after");
 
   const { email, subject, message } = req.body;
+
+  const mailOptions = {
+    from: email,
+    to: LOGIN,
+    subject: subject,
+    text: `From ${email} \n\n${message}`,
+    replyTo: email,
+  };
+
+  createTransporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error("Error sending email:", error);
+    } else {
+      console.log("Email sent:", info.response);
+    }
+  });
 
   res.json({ message: "Message received!" });
 });
