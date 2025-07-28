@@ -23,6 +23,10 @@
 .contact-form label {
   width: 20rem;
 }
+.contact-form input,
+textarea {
+  padding: 0 0.7rem;
+}
 
 .contact-form input {
   height: 2rem;
@@ -36,6 +40,8 @@
   height: 12rem;
   resize: none;
   border-radius: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .contact-form > label {
@@ -67,5 +73,9 @@
 
   .contact-form {
     padding: 0 5.5rem;
+  }
+
+  .contact-form textarea {
+    width: 94%;
   }
 }

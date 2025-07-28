@@ -10,7 +10,8 @@ export default function ContactForm() {
           <input
             type="email"
             name="email-address"
-            placeholder="example@email.com"
+            placeholder="e.g example@email.com"
+            required
           />
         </label>
         <label className="subject-field">
@@ -18,14 +19,15 @@ export default function ContactForm() {
           <input
             type="text"
             name="subject"
-            placeholder="Project collaboration"
+            placeholder="e.g Project collaboration"
           />
         </label>
         <label className="email-body-field">
           <textarea
             type="text"
             name="message"
-            placeholder="Type the body of the email here..."
+            placeholder="Type your message here..."
+            required
           />
         </label>
         <button type="submit" className="send-email-btn">
