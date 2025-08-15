@@ -18,5 +18,5 @@ Visit the live site here: [nomfundo-m](https://nomfundo-m.netlify.app/)
 ## 🛠 Tech Stack
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript (ES6+)
-- **Deployment**: Netlify
+- **Deployment**: Netlify (frontend) & Render (backend)
 - **Version Control**: Git & GitHub
