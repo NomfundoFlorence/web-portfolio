@@ -4,7 +4,17 @@
     "jobPosition": "Web Dev Recruit",
     "dates": "Apr 2024 - Mar 2025",
     "companyName": "Umuzi",
-    "jobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "skillsTools": ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+    "jobDescription": "Acquired skills in the basic web technologies. Gained hands-on experience building backend, frontend and fullstack web application.",
+    "skillsTools": [
+      "Git version control",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Express.js",
+      "Jasmine"
+    ]
   }
 ]

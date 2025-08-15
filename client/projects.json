@@ -1,5 +1,13 @@
 [
   {
+    "image": "portfolio.png",
+    "title": "Portfolio",
+    "description": "A web portfolio built using React.js, integrated with a contact form Express.js backend.",
+    "technologies": ["React.js", "Javascript", "Express.js", "HTML", "CSS"],
+    "githubLink": "https://github.com/NomfundoFlorence/web-portfolio",
+    "liveLink": "https://nomfundo-m.netlify.app/"
+  },
+  {
     "image": "memory_game.png",
     "title": "Memory game",
     "description": "A simple memory game where players match pairs of randomized cards and every move counts.",

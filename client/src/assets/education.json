@@ -1,0 +1,16 @@
+[
+  {
+    "logo": "nwu.png",
+    "title": "Bachelor of Science in Information Technology",
+    "SchoolName": "North West University",
+    "dates": "May 2024",
+    "description": "Learned skills in programming, databases, security, and systems development, which were preparation for careers like software developer, analyst, or IT manager, with options for further study and work at top companies."
+  },
+  {
+    "logo": "nigel_high.jpg",
+    "title": "National Senior Certificate",
+    "SchoolName": "Nigel High School",
+    "dates": "2016 - 2020",
+    "description": "Studied the Science stream from grade 10 which includes Mathematics, Physical Sciences, Life Sciences and Computer Applications Technology (CAT)."
+  }
+]
