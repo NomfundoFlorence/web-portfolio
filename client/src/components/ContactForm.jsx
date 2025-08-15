@@ -13,7 +13,7 @@ export default function ContactForm() {
     console.log(formData.get("email"));
 
     try {
-      const response = await axios.post("http://localhost:3000/contact", formData, {
+      const response = await axios.post("https://web-portfolio-vd10.onrender.com/contact", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
