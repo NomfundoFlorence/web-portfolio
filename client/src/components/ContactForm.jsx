@@ -50,13 +50,12 @@ export default function ContactForm() {
         </label>
         <label className="email-body-field">
           <textarea
-            type="text"
             name="message"
             placeholder="Type your message here..."
             required
           />
         </label>
-        <button type="submit" className="send-email-btn" onClick={handleSubmit}>
+        <button type="submit" className="send-email-btn" onSubmit={handleSubmit}>
           Send email
         </button>
       </form>
