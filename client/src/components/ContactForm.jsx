@@ -55,7 +55,7 @@ export default function ContactForm() {
             required
           />
         </label>
-        <button type="submit" className="send-email-btn" onSubmit={handleSubmit}>
+        <button type="submit" className="send-email-btn" onClick={handleSubmit}>
           Send email
         </button>
       </form>
