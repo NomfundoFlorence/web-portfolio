@@ -21,7 +21,8 @@
 
 .project-card img {
   width: 100%;
-  min-height: 22rem;
+  min-height: 14rem;
+  max-height: 14rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
