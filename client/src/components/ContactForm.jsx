@@ -18,8 +18,6 @@ export default function ContactForm() {
       return;
     }
 
-    console.log(formData.get("email"));
-
     try {
       await axios.post(
         "https://web-portfolio-vd10.onrender.com/contact",
@@ -31,6 +29,7 @@ export default function ContactForm() {
         }
       );
 
+      setModalLoading(true);
       setModalVisible(true);
 
       setTimeout(() => {
