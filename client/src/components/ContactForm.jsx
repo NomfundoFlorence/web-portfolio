@@ -1,29 +1,44 @@
 import axios from "axios";
 import "/public/ContactForm.css";
+import Validator from "validator";
+import { useState } from "react";
 
 export default function ContactForm() {
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalLoading, setModalLoading] = useState(true);
+
   async function handleSubmit(event) {
     event.preventDefault();
 
     const form = document.getElementsByClassName("contact-form")[0];
-    alert("data captured");
-
     const formData = new FormData(form);
+
+    if (!formData.get("email") || !Validator.isEmail(formData.get("email"))) {
+      alert("Provide valid email");
+      return;
+    }
 
     console.log(formData.get("email"));
 
     try {
-      const response = await axios.post("https://web-portfolio-vd10.onrender.com/contact", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      await axios.post(
+        "https://web-portfolio-vd10.onrender.com/contact",
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
 
-      console.log(response);
-      alert(response.data.message)
-      
+      setModalVisible(true);
+
+      setTimeout(() => {
+        setModalLoading(false);
+      }, 5000);
     } catch (error) {
       console.error("could not send message");
+      alert("Could not send message");
     }
   }
 
@@ -59,6 +74,30 @@ export default function ContactForm() {
           Send email
         </button>
       </form>
+
+      {modalVisible && (
+        <div className="modal">
+          <div className="modal-content">
+            {modalLoading ? (
+              <h1>Sending email...</h1>
+            ) : (
+              <>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Eo_circle_light-blue_checkmark.svg/1024px-Eo_circle_light-blue_checkmark.svg.png"
+                  alt="check image"
+                  className="check-image"
+                />
+                <h1 className="modal-message">Email sent</h1>
+                <button
+                  className="modal-close"
+                  onClick={() => setModalVisible(false)}>
+                  Close
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
