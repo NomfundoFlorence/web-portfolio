@@ -19,8 +19,8 @@
     "image": "footprint_logger.png",
     "title": "CO₂ logger",
     "description": "A tool that makes people aware of how much their daily activities contribute to the CO₂ in the air",
-    "technologies": ["React", "Javascript", "Tailwind"],
+    "technologies": ["React.js", "Javascript", "Tailwind CSS"],
     "githubLink": "https://github.com/NomfundoFlorence/footprint-logger",
-    "liveLink": "Coming soon"
+    "liveLink": ""
   }
 ]
