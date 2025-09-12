@@ -14,5 +14,13 @@
     "technologies": ["Javascript", "HTML", "CSS"],
     "githubLink": "https://github.com/NomfundoFlorence/Memory-Game",
     "liveLink": "https://memory-game-73.netlify.app/"
+  },
+  {
+    "image": "footprint_logger.png",
+    "title": "CO₂ logger",
+    "description": "A tool that makes people aware of how much their daily activities contribute to the CO₂ in the air",
+    "technologies": ["React.js", "Javascript", "Tailwind CSS"],
+    "githubLink": "https://github.com/NomfundoFlorence/footprint-logger",
+    "liveLink": ""
   }
 ]
