@@ -104,7 +104,7 @@ export default function ContactForm() {
           <div className="p-8 bg-white rounded-3xl shadow-2xl border-2 border-pink-100">
             <form className="space-y-5 text-slate-700" onSubmit={handleSubmit}>
               <div className="grid gap-6 md:grid-cols-2">
-                <div className="space-y-2">
+                <div className="flex flex-col space-y-2">
                   <label htmlFor="name" className="text-slate-700 font-medium">
                     Name
                   </label>
@@ -118,7 +118,7 @@ export default function ContactForm() {
                     transition-all"
                   />
                 </div>
-                <div className="space-y-2">
+                <div className="flex flex-col space-y-2">
                   <label htmlFor="email" className="text-slate-700 font-medium">
                     Email
                   </label>
@@ -177,7 +177,7 @@ export default function ContactForm() {
                 text-white rounded-xl shadow-lg h-12 text-base font-semibold 
                 transition-all">
                 <Send className="w-5 h-5" />
-                Send Message ✨
+                Send Message
               </button>
             </form>
           </div>
