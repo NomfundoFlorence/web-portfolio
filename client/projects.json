@@ -1,26 +1,54 @@
 [
   {
-    "image": "portfolio.png",
+    "image": "",
     "title": "Portfolio",
+    "category": "Full-Stack",
     "description": "A web portfolio built using React.js, integrated with a contact form Express.js backend.",
     "technologies": ["React.js", "Javascript", "Express.js", "HTML", "CSS"],
+    "features": [
+      "provides access to project demos",
+      "provides access to my CV at the click of a button",
+      "has links to social (professional) accounts",
+      "allows one to send an email directly on the site"
+    ],
     "githubLink": "https://github.com/NomfundoFlorence/web-portfolio",
     "liveLink": "https://nomfundo-m.netlify.app/"
   },
   {
     "image": "memory_game.png",
     "title": "Memory game",
+    "category": "Frontend",
     "description": "A simple memory game where players match pairs of randomized cards and every move counts.",
     "technologies": ["Javascript", "HTML", "CSS"],
+    "features": [
+      "offers different grid sizes",
+      "every move counts",
+      "keeps track of time spent to solve one puzzle",
+      "provides a summary of how the game went"
+    ],
     "githubLink": "https://github.com/NomfundoFlorence/Memory-Game",
     "liveLink": "https://memory-game-73.netlify.app/"
   },
   {
     "image": "footprint_logger.png",
     "title": "CO₂ logger",
-    "description": "A tool that makes people aware of how much their daily activities contribute to the CO₂ in the air",
-    "technologies": ["React.js", "Javascript", "Tailwind CSS"],
+    "category": "Full-Stack",
+    "description": "A tool that helps people keep track of their daily activities which contribute to the CO₂ in the air",
+    "technologies": [
+      "React",
+      "Javascript",
+      "Express",
+      "RESTful APIs",
+      "WebSockets",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "uses JWT authentication",
+      "uses websockets for displaying some <em>live</em> content",
+      "restricts some viewing to users",
+      "has a leaderboard for low carbon emitting users"
+    ],
     "githubLink": "https://github.com/NomfundoFlorence/footprint-logger",
-    "liveLink": ""
+    "liveLink": "https://footprint-logger-frontend-rnut.onrender.com"
   }
 ]
