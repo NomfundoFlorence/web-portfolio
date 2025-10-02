@@ -3,8 +3,15 @@
     "image": "",
     "title": "Portfolio",
     "category": "Full-Stack",
-    "description": "A web portfolio built using React.js, integrated with a contact form Express.js backend.",
-    "technologies": ["React.js", "Javascript", "Express.js", "HTML", "CSS"],
+    "description": "A web portfolio that showcases my skills, integrated with a contact form to allow users to send me emails",
+    "technologies": [
+      "React",
+      "Javascript",
+      "Express",
+      "Nodemailer",
+      "HTML",
+      "CSS"
+    ],
     "features": [
       "provides access to project demos",
       "provides access to my CV at the click of a button",
@@ -18,7 +25,7 @@
     "image": "memory_game.png",
     "title": "Memory game",
     "category": "Frontend",
-    "description": "A simple memory game where players match pairs of randomized cards and every move counts.",
+    "description": "A simple memory game where players match pairs of randomized cards and every move counts",
     "technologies": ["Javascript", "HTML", "CSS"],
     "features": [
       "offers different grid sizes",
