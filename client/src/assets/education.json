@@ -1,16 +1,65 @@
 [
   {
-    "logo": "nwu.png",
     "title": "Bachelor of Science in Information Technology",
-    "SchoolName": "North West University",
+    "schoolName": "North West University",
     "dates": "May 2024",
-    "description": "Learned skills in programming, databases, security, and systems development, which were preparation for careers like software developer, analyst, or IT manager, with options for further study and work at top companies."
+    "coursework": [
+      "data structures and algorithm (Java)",
+      "computer networks",
+      "databases (SQL)",
+      "AI",
+      "information security",
+      "operating systems",
+      "object-oriented programming",
+      "systems analysis and design",
+      "business analysis",
+      "data analytics"
+    ]
   },
   {
-    "logo": "nigel_high.jpg",
-    "title": "National Senior Certificate",
-    "SchoolName": "Nigel High School",
+    "title": "IBM Full-Stack JavaScript Developer Professional Certificate",
+    "schoolName": "Coursera",
+    "dates": "Sept 2025",
+    "coursework": [
+      "javascript",
+      "docker",
+      "CI/CD",
+      "Kubernetes",
+      "cloud native",
+      "mongoDB",
+      "microservices",
+      "devOps",
+      "NoSQL",
+      "node.js",
+      "agile methodologies"
+    ]
+  },
+  {
+    "title": "Google IT Support Professional Certificate",
+    "schoolName": "Coursera",
+    "dates": "In Progress",
+    "coursework": [
+      "computer hardware and software",
+      "technical support fundamentals",
+      "operating systems",
+      "computer networking",
+      "systems administration",
+      "IT infrastructure services",
+      "IT security"
+    ]
+  },
+  {
+    "title": "National Senior Certificate - Grade 12",
+    "schoolName": "Nigel High School",
     "dates": "2016 - 2020",
-    "description": "Studied the Science stream from grade 10 which includes Mathematics, Physical Sciences, Life Sciences and Computer Applications Technology (CAT)."
+    "coursework": [
+      "english HL",
+      "afrikaans FAL",
+      "mathematics",
+      "life orientation",
+      "computer applications technology (CAT)",
+      "physical sciences",
+      "life sciences"
+    ]
   }
 ]
