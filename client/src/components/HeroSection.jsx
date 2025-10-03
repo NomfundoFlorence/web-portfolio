@@ -8,33 +8,13 @@ import {
   Palette,
   Zap,
   Coffee,
+  FileUser,
 } from "lucide-react";
 
 import "/public/HeroSection.css";
 import image from "/images/image05.jpg";
 
 export default function HeroSection() {
-  // return (
-  //   <section className="hero-section">
-  //     <img src={image} alt="image of Nomfundo smiling" />
-  //     <h1 className="name">Nomfundo Mlangeni</h1>
-  //     <h3 className="professional-title">Web Developer</h3>
-  //     <div className="socials-container">
-  //       <button className="github-button">
-  //         <a href="https://github.com/NomfundoFlorence" target="blank">
-  //           GitHub
-  //         </a>
-  //       </button>
-  //       <button className="linkedIn-button">
-  //         <a href="https://www.linkedin.com/in/nomfundo-mlangeni05/" target="blank">LinkedIn</a>
-  //       </button>
-  //     </div>
-  //   </section>
-  // );
-
-  {
-    /* Hero Section */
-  }
   return (
     <section className="py-20 bg-gradient-to-br from-pink-300 via-purple-400 to-teal-300 text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-20">
@@ -70,7 +50,7 @@ export default function HeroSection() {
                 href="https://github.com/NomfundoFlorence"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/20 backdrop-blur border border-white text-white hover:bg-white hover:text-pink-600 transition-colors shadow-md">
+                className="flex items-center gap-2 px-3 py-2 rounded-xl bg-white/20 backdrop-blur border border-white text-white hover:bg-white hover:text-pink-600 transition-colors shadow-md">
                 <Github className="w-5 h-5" />
                 GitHub
               </a>
@@ -78,9 +58,16 @@ export default function HeroSection() {
                 href="https://www.linkedin.com/in/nomfundo-mlangeni05/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-white/20 backdrop-blur border border-white text-white hover:bg-white hover:text-purple-600 transition-colors shadow-md">
+                className="flex items-center gap-2 px-3 py-2 rounded-xl bg-white/20 backdrop-blur border border-white text-white hover:bg-white hover:text-purple-600 transition-colors shadow-md">
                 <Linkedin className="w-5 h-5" />
                 LinkedIn
+              </a>
+              <a
+                href="/Nomfundo_Mlangeni_CV.pdf"
+                download="Nomfundo_Mlangeni_CV.pdf"
+                className="flex items-center gap-2 px-3 py-2 rounded-xl bg-white/20 backdrop-blur border border-white text-white hover:bg-white hover:text-teal-600 transition-colors shadow-md">
+                <FileUser className="w-5 h-5" />
+                CV/Resume
               </a>
             </div>
           </div>
