@@ -10,8 +10,6 @@ import {
   Coffee,
   FileUser,
 } from "lucide-react";
-
-import "/public/HeroSection.css";
 import image from "/images/image05.jpg";
 
 export default function HeroSection() {

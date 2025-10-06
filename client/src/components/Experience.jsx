@@ -8,7 +8,7 @@ export default function Experience() {
       className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
       <div className="container px-4 mx-auto">
         <h2 className="mb-4 text-3xl font-bold text-center bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          Experience 🌟
+          Training/Experience 🌟
         </h2>
         <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
           My professional journey and the amazing teams I've worked with

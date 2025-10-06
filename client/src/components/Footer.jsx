@@ -1,5 +1,3 @@
-import "/public/Footer.css";
-
 export default function Footer() {
   return (
     <footer className="py-7 bg-gradient-to-r from-purple-700 to-pink-800 ">
