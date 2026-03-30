@@ -37,7 +37,7 @@
   {
     "title": "Google IT Support Professional Certificate",
     "schoolName": "Coursera",
-    "dates": "In Progress",
+    "dates": "Oct 2025",
     "coursework": [
       "computer hardware and software",
       "technical support fundamentals",
@@ -46,6 +46,19 @@
       "systems administration",
       "IT infrastructure services",
       "IT security"
+    ]
+  },
+  {
+    "title": "IBM Project Manager Professional Certificate",
+    "schoolName": "Coursera",
+    "dates": "March 2026",
+    "coursework": [
+      "project lifecycle",
+      "project initiation & planning",
+      "risk management",
+      "project management communication",
+      "stakeholders & leadership",
+      "agile development & scrum"
     ]
   }
 ]

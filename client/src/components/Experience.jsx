@@ -1,5 +1,6 @@
 import { Star, Briefcase, TrendingUp, Award } from "lucide-react";
 import experience from "../assets/experience.json";
+import umuziLogo from "../../public/images/umuzi.png"
 
 export default function Experience() {
   return (
@@ -27,9 +28,10 @@ export default function Experience() {
                   <div className="flex items-start gap-4">
                     {/* Company Logo Placeholder */}
                     <div className="flex-shrink-0">
-                      <div className="w-16 h-16 bg-gradient-to-br from-pink-200 via-purple-300 to-teal-300 rounded-2xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
+                      {/* <div className="w-16 h-16 bg-gradient-to-br from-pink-200 via-purple-300 to-teal-300 rounded-2xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
                         <Briefcase className="w-8 h-8 text-white" />
-                      </div>
+                      </div> */}
+                      <img src={`/images/${job.companyLogo}`} className="w-20" />
                     </div>
 
                     <div>

@@ -37,7 +37,7 @@ export default function HeroSection() {
             <h1 className="text-5xl font-bold drop-shadow-lg">
               Nomfundo Mlangeni
             </h1>
-            <p className="text-2xl">Junior Software Developer ✨</p>
+            <p className="text-2xl">Software Developer & Project Manager ✨</p>
             <p className="text-lg text-white/90 max-w-md">
               Welcome to my creative space! I'm passionate about creating
               beautiful and functional experiences accessible to everyone.

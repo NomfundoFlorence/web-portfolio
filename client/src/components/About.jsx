@@ -1,4 +1,5 @@
 import { Heart, Sparkles } from "lucide-react";
+import codingGirl from "/images/coding-girl.gif";
 
 export default function About() {
   const skills = [
@@ -18,6 +19,7 @@ export default function About() {
     "Cloud Native",
     "DevOps",
     "Github",
+    "Project management",
   ];
 
   return (
@@ -32,7 +34,7 @@ export default function About() {
             <div className="relative w-full h-80 bg-gradient-to-br from-pink-200 via-purple-200 to-teal-200 rounded-3xl shadow-lg overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <Heart className="w-20 h-20 text-white/30" />
-                <p>Image to be uploaded soon...</p>
+                <img src={codingGirl} alt="coding girl GIF" />
               </div>
             </div>
 
